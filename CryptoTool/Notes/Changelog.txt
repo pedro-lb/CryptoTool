@@ -1,0 +1,121 @@
+﻿ _____                  _      _____           _ 
+/  __ \                | |    |_   _|         | |
+| /  \/_ __ _   _ _ __ | |_ ___ | | ___   ___ | |
+| |   | '__| | | | '_ \| __/ _ \| |/ _ \ / _ \| |
+| \__/\ |  | |_| | |_) | || (_) | | (_) | (_) | |
+ \____/_|   \__, | .__/ \__\___/\_/\___/ \___/|_|
+             __/ | |                             
+            |___/|_|
+			                             
+			        Project Started on 29/12/2016
+				    Developed by Pedro L. C. Bini
+			 						 @2016 - 2017
+
+
+
+-----TO DO-----
+
+link changelog file --> show it on a popup (view changelog --> settings tab);
+
+implement hashing functions support (SHA-128, SHA-256, SHA-512; MD4, MD5);
+
+implement HMAC hashing functions support (SHA-128, SHA-256, SHA-512; MD4, MD5);
+
+link to windows shell --> new folder, encrypted file, etc, encrypt text(selection), CryptoTool->encrypt/decrypt;
+
+implement add from clipboard on app start --> use settings file;
+
+implement Blowfish decryption/encryption support;
+
+implement AES encryption/decryption support;
+
+implement obfuscation support;
+
+
+-----DONE-----
+
+[12/01/2016 - v0.7]
+bugfix where app would load on wrong operation page;
+added HMAC settings persistency;
+added import from clipboard function at appStart;
+created settings to rule import and export to/from clipboard;
+add appwide settings file;
+created settings page;
+create a default void method to hide all controls with optional exception parameters;
+implemented license on about page;
+create about text on TextBox at about tab --> do it on appLoad;
+added new hashing methods;
+added HMAC hashing support on interface;
+unified all grids;
+added maxWidth properties to main elements;
+
+[07/01/2016 - v0.6]
+fix swap buttons bug;
+
+[06/01/2016 - v.05a]
+whole project cleanup;
+
+[05/01/2017 - v0.5]
+started version tracking;
+implemented Binary encoding/decoding functions;
+fix ASCII decoding bug;
+created about page;
+added copy to clipboard function;
+
+[04/01/2017]
+settings and about pages now have their own grid --> doesn't show buttons anymore;
+created obfuscation icon;
+designed encryption, hashing, obfuscation, settings and about pages;
+created showGrid() method;
+add link between dock menu buttons and operating content;
+implemented enums --> now controls all switches;
+split Functions into EncodingOperations, EncryptionOperations, etc.
+
+[03/01/2017]
+created all necessary grids and tabControls;
+
+[02/01/2017]
+added ASCII encoding/decoding functions;
+implement vertical scroll bars textboxes (auto hide);
+add copy to clipboard and clear functions;
+make encoding functions generic by type! --> check from tabItems;
+create method to verify base64 strings;
+rewrite base64 decoding method so it doesn't use try/catch anymore;
+make switch button click switch texts;
+delete "Input...", "Output..." text on click (textboxes);
+
+[01/01/2017]
+added support for a unified in/out operations;
+modified tabItem design to support in/out operations;
+
+[31/12/2016]
+added base64 decoding and encoding functions;
+add images to dock menu buttons;
+added dock animation --> now shows on buttonClick;
+added dock animation --> now hides on mouseLeave;
+major project redesign --> follows last project's design themes now;
+
+[29/12/2016]
+upgraded project to .NET 4.6.1;
+implemented animation functions;
+
+[27/12/2016]
+implemented autoHide function on tsMenu Control;
+split operation tabs into Encoding/Decoding and Encryption/Decryption;
+major redesign using panels and switch() visible cases;
+implemented About and Settings panel at main form;
+deleted About and Settings form;
+
+[26/12/2016]
+created About and Settings form --> deleted tabs;
+major app redesign;
+upgraded project to .NET 4.6.1;
+created panel img on about page;
+split settings page into settings and about;
+created app icon;
+
+[22/12/2016]
+make buttons generic --> same for every tab;
+implement base64 encoding/decoding support;
+create settings tab --> first, but not default;
+create main layout;
